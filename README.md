@@ -16,3 +16,10 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python scripts/run_demo.py
 ```
+
+## Walk-forward check
+
+```bash
+python scripts/run_walkforward.py
+# output: output/walkforward_summary.csv
+```
